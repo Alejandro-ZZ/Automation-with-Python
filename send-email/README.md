@@ -30,12 +30,12 @@ Firts, the code tries to connect to your *localhost* server; however it'll trhou
 server configured). 
 
 If the before connection wasn't successfully, the code will try to connect to Gmail SMTP server. When doing that, program will wait you to enter wether you want to 
-enable or not the debug option of the **`smtplib`** library. Then, the **`getpass`* module is imported to ask for the password without showing it in the screen. 
+enable or not the debug option of the **`smtplib`** library. Then, the **`getpass`** module is imported to ask for the password without showing it in the screen. 
 
 
  **Note:** 
  
- * if you run the program in a python IDE, when asking for your password it wil trough a warnning because the **`getpass`* module wasn't meant to excecute in a IDE. 
+ * if you run the program in a python IDE, when asking for your password it wil trough a warnning because the **`getpass`** module wasn't meant to excecute in a IDE. 
    And so, you'll see your password on the shell.
  
  * When trying to authenticate, it might through a fail connection (like the one shown below) even tough your password is OK. This might be because you have the 
