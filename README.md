@@ -7,3 +7,23 @@ This repository shows examples of how to automate different actions with python.
 **1. send-email**, script that describes how to send an email message with an attachment from Python using libraries like `email.message`, `smtplib` and others.
 
 **2. generate-PDF**, this code shows a way that let you generate PDFs with the content that you want in Python using the `ReportLab module`.
+
+## Requirements
+
+All of these examples were probed in `Python 3.7.8`. Other not build-in module versions are shown in the **requirements.txt** file. If you have already installed Python in your computer you can see its version by running one of the below lines in the terminal.
+
+      python --version
+      python -V
+      python -VV
+
+If you have one of the not build-in module already installed, you can see the version of all modules installed by running the following line
+
+    pip freeze
+
+To individually find the version number of a `module_name` you can grep on this output (for NIX machines):
+
+    pip freeze | grep module_name
+
+On windows, you can use findstr instead of grep
+
+    pip freeze | findstr module_name
