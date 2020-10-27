@@ -10,7 +10,12 @@ This repository shows examples of how to automate different actions with python.
 
 ## Requirements
 
-All of these examples were probed in `Python 3.7.8`. Other not build-in module versions are shown in the **requirements.txt** file. If you have already installed Python in your computer you can see its version by running one of the below lines in the terminal.
+All of these examples were probed in `Python 3.7.8` and they might work with other version. Not build-in module versions are shown in the **requirements.txt** file.
+To install all modules needed run the following line in your terminal.
+
+      python -m pip install -r requirements.txt
+
+If you have already installed Python in your computer you can see its version by running one of the below lines in the terminal.
 
       python --version
       python -V
