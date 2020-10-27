@@ -5,3 +5,5 @@ This repository shows examples of how to automate different actions with python.
 ## Examples
 
 **1. send-email**, script that describes how to send an email message with an attachment from Python using libraries like `email.message`, `smtplib` and others.
+
+**2. generate-PDF**, this code shows a way that let you generate PDFs with the content that you want in Python using the `ReportLab module`.
