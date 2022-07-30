@@ -4,11 +4,11 @@ This repository shows examples of how to automate different actions with python.
 
 ## Examples
 
-* **send-email**, script that describes how to send an email message with an attachment from Python using libraries like `email.message`, `smtplib` and others.
+* **[send-email](https://github.com/Alejandro-ZZ/Automation-with-Python/tree/master/send-email)**, script that describes how to send an email message with an attachment from Python using libraries like `email.message`, `smtplib` and others.
 
-* **regex_examples**, basic and advanced examples applying regular expressions with the `re` module and three of its methods: `re.search()`, `re.findall()`, `re.sub()`
+* **[regex_examples](https://github.com/Alejandro-ZZ/Automation-with-Python/tree/master/regex_examples)**, basic and advanced examples applying regular expressions with the `re` module and three of its methods: `re.search()`, `re.findall()`, `re.sub()`
 
-* **generate-PDF**, this code shows a way that let you generate PDFs with the content that you want in Python using the `ReportLab module`.
+* **[generate-PDF](https://github.com/Alejandro-ZZ/Automation-with-Python/tree/master/generate-PDF)**, this code shows a way that let you generate PDFs with the content that you want in Python using the `ReportLab module`.
 
 ## Requirements
 
