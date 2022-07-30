@@ -26,21 +26,21 @@ don't know, you can use the Python **mimetypes** module to make a guess. That's 
 ## SENDING EMAIL THROUGH SMTP SERVER
 
 In this section the [smtplib](https://docs.python.org/3/library/smtplib.html) module is used to create the **Simple Mail Transfer Protocol (SMTP)** to send the email.
-Firts, the code tries to connect to your *localhost* server; however it'll trhough an error because the conection won't be succesfully (unless you have a local SMTP 
+Firts, the code tries to connect to your *localhost* server; however it'll raise an error because the conection won't be succesfully (unless you have a local SMTP 
 server configured). 
 
-If the before connection wasn't successfully, the code will try to connect to Gmail SMTP server. When doing that, program will wait you to enter wether you want to 
+If the before connection wasn't successfully, the code will try to connect to a Gmail SMTP server. When doing that, program will wait you to enter wether you want to 
 enable or not the debug option of the **`smtplib`** library. Then, the **`getpass`** module is imported to ask for the password without showing it in the screen. 
 
 
  **Note:** 
  
- * if you run the program in a python IDE, when asking for your password it wil trough a warnning because the **`getpass`** module wasn't meant to excecute in a IDE. 
+ * if you run the program in a python IDLE, when asking for your password it wil trough a warnning because the **`getpass`** module wasn't meant to excecute in a IDLE. 
    And so, you'll see your password on the shell.
  
- * When trying to authenticate, it might through a fail connection (like the one shown below) even tough your password is OK. This might be because you have the 
-   **Allow less secure apps access** option disable. 
+ * When trying to authenticate, it might raise a fail connection (like the one shown below) even tough your password is OK. This might be because you have the 
+   **Allow less secure apps access** option disable on your Gmail account settings. 
  ~~~
-        smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. 
-        Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 11sm1527779vkz.42 - gsmtp')
+        smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at
+        5.7.8  https://support.google.com/mail/?p=BadCredentials 11sm1527779vkz.42 - gsmtp')
  ~~~
