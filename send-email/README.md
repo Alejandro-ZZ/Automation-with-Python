@@ -1,7 +1,12 @@
 # Send an email with Python
 
-The example's structure is divide in three sections: **EMAIL LIBRARY**, **ADDING ATTACHMENTS** and **SENDING EMAIL THROUGH SMTP SERVER**.  When running the script it
-will show you what action is taking with a `print` funtion. 
+The [Send_Email_Example.py](https://github.com/Alejandro-ZZ/Automation-with-Python/blob/master/send-email/Send_Email_Example.py) code is divide in three sections: 
+
+* [EMAIL LIBRARY](#email-library)
+* [ADDING ATTACHMENTS](#adding-attachments)
+* [SENDING EMAIL THROUGH SMTP SERVER](#sending-email-through-smtp-server) 
+
+Running the script will show you (in the console) what action is being performed with a `print` function.
 
 ## EMAIL LIBRARY
 
