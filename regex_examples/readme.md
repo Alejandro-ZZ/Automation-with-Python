@@ -1,6 +1,6 @@
 # Regex Examples
 
-Scripts using `re` module to compile regular expression (regex) using Python. The examples includes three methods: 
+The [Regex_Examples.ipynb](https://github.com/Alejandro-ZZ/Automation-with-Python/blob/master/regex_examples/Regex_Examples.ipynb) notebook has different scripts using `re` module to compile regular expression (regex) using Python. The examples includes three methods: 
 
 1. `re.search()` Scan through string looking for the first location where the regular expression pattern produces a match, and return a corresponding match object. Return None if no position in the string matches the pattern; note that this is different from finding a zero-length match at some point in the string.
 
