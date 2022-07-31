@@ -1,10 +1,14 @@
 # Generate a PDF file with Python
 
-The code is divide in three sections: **GENERATING SIMPLE PDF**, **ADDING TABLE** and **ADDING GRAPGHIC**.  When running the script, it
-will show you what action is taking with a `print` function and will wait until you press ENTER keyboard key to let you see changes made 
-in the PDF file as shown below.
+[generate_PDF.py](https://github.com/Alejandro-ZZ/Automation-with-Python/blob/master/generate-PDF/generate_PDF.py) is divide in three sections: 
 
-      ->Action taken...
+- [GENERATING SIMPLE PDF](#generating-simple-pdf)
+- [ADDING TABLE](#adding-table)
+- [ADDING GRAPGHIC](#adding-grapghic)
+
+Running the script will show you what action is being performed with a `print` function and wait until you hit the ENTER key so you can see the changes made to the PDF file, as shown below.
+
+      -> Action taken...
       :
       :
       PDF built, check the file and press enter to continue...
